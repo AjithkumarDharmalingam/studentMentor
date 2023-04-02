@@ -73,7 +73,6 @@ router.get('/all-mentors',async(req,res)=>{
   })
 
 
-
   router.post('/add-student',async(req,res)=>{
     const client = new MongoClient(dbUrl)
     client.connect()
